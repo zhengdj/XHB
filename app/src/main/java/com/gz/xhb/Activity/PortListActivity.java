@@ -52,4 +52,5 @@ public class PortListActivity extends BaseListActivity<ListView, PortListAdatper
 
         return new PortListAdatper(this, list);
     }
+
 }
