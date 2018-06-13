@@ -38,11 +38,9 @@ public class MainMenuActivity extends XHBBaseActivity implements MainMenuView{
             ,PsBaseInfoActivity.class
             ,PsListActivity.class
             ,PsListActivity.class
-            ,PsBaseInfoActivity.class,
-            PsBaseInfoActivity.class,
-            PsBaseInfoActivity.class,
-            PsBaseInfoActivity.class,
-            PsBaseInfoActivity.class};
+            ,PsListActivity.class,
+            PsListActivity.class,
+            PsBaseInfoActivity.class,};
 
     private List<HashMap<String, Object>> data = new ArrayList<>();
 
