@@ -2,6 +2,8 @@ package com.gz.xhb.Base;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import com.gz.xhb.Activity.XHBBaseActivity;
@@ -14,15 +16,12 @@ import java.util.List;
  * Created by zdj on 2018/6/12.
  */
 
-public abstract class BaseListActivity<LV extends ListView, A extends XHBBaseAdapter> extends XHBBaseActivity {
+public abstract class BaseListActivity<LV extends ListView, A extends XHBBaseAdapter> extends XHBBaseActivity implements AdapterView.OnItemClickListener{
     LV listView;
 //    List<T> mList = new ArrayList<>();
     A adapter;
 
-    @Override
-    protected int getContentViewLayoutID() {
-        return R.layout.activity_list;
-    }
+
 
     @SuppressLint("WrongViewCast")
     @Override
@@ -32,6 +31,7 @@ public abstract class BaseListActivity<LV extends ListView, A extends XHBBaseAda
         adapter = setAdapter();
         listView.setAdapter(adapter);
         loadDataSync();
+        listView.setOnItemClickListener(this);
     }
     public abstract String setTitle();
     public abstract LV setListView();
@@ -42,4 +42,7 @@ public abstract class BaseListActivity<LV extends ListView, A extends XHBBaseAda
     protected  void onLoadSuccess(List list){
         adapter.onDateChange(list);
     }
+
+
+
 }

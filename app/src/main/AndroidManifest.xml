@@ -53,6 +53,9 @@
         <activity android:name=".Activity.PortListActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             />
+        <activity android:name=".Activity.WaterDataActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            />
     </application>
 
 </manifest>

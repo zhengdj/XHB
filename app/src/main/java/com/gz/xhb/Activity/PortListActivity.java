@@ -1,5 +1,8 @@
 package com.gz.xhb.Activity;
 
+import android.content.Intent;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import com.gz.xhb.Adapter.PortListAdatper;
@@ -16,6 +19,12 @@ import java.util.List;
 
 public class PortListActivity extends BaseListActivity<ListView, PortListAdatper> {
     List<PortInfo> list = new ArrayList<>();
+
+
+    @Override
+    protected int getContentViewLayoutID() {
+        return R.layout.activity_list;
+    }
 
     @Override
     public String setTitle() {
@@ -53,4 +62,8 @@ public class PortListActivity extends BaseListActivity<ListView, PortListAdatper
         return new PortListAdatper(this, list);
     }
 
+    @Override
+    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+        startActivity(new Intent(this,WaterDataActivity.class));
+    }
 }

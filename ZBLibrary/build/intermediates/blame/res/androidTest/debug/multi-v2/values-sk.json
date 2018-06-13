@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\AndroidWork\\XHB\\ZBLibrary\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-sk\\values-sk.xml",
+            "outputFile": "F:\\AndroidWork\\XHB\\XHB\\ZBLibrary\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-sk\\values-sk.xml",
             "map": [
                 {
                     "source": "C:\\Users\\zhengdongjie\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\b4f50d394ea56ec0f1f478eef119e249\\res\\values-sk\\values-sk.xml",
