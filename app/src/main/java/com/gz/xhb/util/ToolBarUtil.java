@@ -75,7 +75,7 @@ public class ToolBarUtil {
         activity.getSupportActionBar().setDisplayShowTitleEnabled(false);
 
         mTitleBar.setCenterTitle(title);
-        mTitleBar.setBackgroundColor(activity.getResources().getColor(R.color.topbar_bg));
+        mTitleBar.setBackgroundColor(activity.getResources().getColor(R.color.colorPrimary));
 //        mTitleBar.setNavigationIcon(R.mipmap.ic_launcher);
         mTitleBar.setNavigationIcon(R.mipmap.ic_back);
         mTitleBar.setNavigationOnClickListener(new View.OnClickListener() {

@@ -6,7 +6,7 @@ import java.io.Serializable;
  * Created by zdj on 2018/6/6.
  */
 
-public class PsBaseInfo  implements Serializable {
+public class PsBaseInfo implements Serializable {
     private String pscode;
     private String  psname;
     private String attentiondegreename;

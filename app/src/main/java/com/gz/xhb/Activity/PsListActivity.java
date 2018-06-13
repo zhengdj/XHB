@@ -50,7 +50,7 @@ public class PsListActivity extends XHBBaseActivity implements BGARefreshLayout.
         initRefreshLayout(mRefreshLayout);
         listView = findViewById(R.id.lv_psList_content);
         initTestData();
-        psListAdapter= new PsListAdapter(this, mList, listView);
+        psListAdapter= new PsListAdapter(this, mList);
         listView.setAdapter(psListAdapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override

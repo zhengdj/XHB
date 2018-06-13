@@ -14,7 +14,9 @@ import java.util.List;
  * Created by zdj on 2018/6/12.
  */
 
-public class PortListActivity extends BaseListActivity<ListView,PortListAdatper> {
+public class PortListActivity extends BaseListActivity<ListView, PortListAdatper> {
+    List<PortInfo> list = new ArrayList<>();
+
     @Override
     public String setTitle() {
         return "排口列表";
@@ -26,17 +28,28 @@ public class PortListActivity extends BaseListActivity<ListView,PortListAdatper>
     }
 
     @Override
+
     public PortListAdatper setAdapter() {
         return getTestAdapter();
     }
 
-    private PortListAdatper getTestAdapter() {
-        PortInfo portInfo = new PortInfo();
-        List<PortInfo> list = new ArrayList<>();
-        for(int i=0;i<30;i++){
-            portInfo.setOutputcode("测试"+i);
+    @Override
+    public void loadDataSync() {
+        for (int i = 0; i < 30; i++) {
+            PortInfo portInfo = new PortInfo();
+            portInfo.setOutputcode("code" + i);
+            portInfo.setOutputname("name" + i);
+            portInfo.setMn("mn" + i);
+            portInfo.setOutputpointtype("outputpointtype" + i);
+            portInfo.setOutputtype("outputtype" + i);
+            portInfo.setIfsintering("sintering" + i);
             list.add(portInfo);
         }
-       return new PortListAdatper(this,list);
+        onLoadSuccess(list);
+    }
+
+    private PortListAdatper getTestAdapter() {
+
+        return new PortListAdatper(this, list);
     }
 }

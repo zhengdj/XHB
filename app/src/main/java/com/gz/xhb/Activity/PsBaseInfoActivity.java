@@ -1,5 +1,6 @@
 package com.gz.xhb.Activity;
 
+
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
@@ -13,12 +14,11 @@ import com.gz.xhb.databinding.ActivityPsBaseInfoBinding;
 import com.gz.xhb.util.ToolBarUtil;
 import com.gz.xhb.view.PsBaseInfoView;
 
-
 /**
  * Created by zdj on 2018/6/6.
  */
 
-public class PsBaseInfoActivity extends XHBBaseActivity implements PsBaseInfoView{
+public class PsBaseInfoActivity extends XHBBaseActivity implements PsBaseInfoView {
 
     PsBaseInfo psBaseInfo = new PsBaseInfo();
     ActivityPsBaseInfoBinding binding;
