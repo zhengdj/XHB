@@ -2,10 +2,10 @@ package com.gz.xhb.MVP.Presenter;
 
 import android.os.Handler;
 
-import com.gz.xhb.MVP.interfaces.OnLoginListener;
-import com.gz.xhb.MVP.view.LoginView;
-import com.gz.xhb.MVP.Entity.User;
-import com.gz.xhb.MVP.model.UserBiz;
+import com.gz.xhb.MVP.Interfaces.OnLoginListener;
+import com.gz.xhb.MVP.View.LoginView;
+import com.gz.xhb.MVP.Model.Entity.User;
+import com.gz.xhb.MVP.Model.UserBiz;
 
 /**
  * Created by zdj on 2018/5/21.

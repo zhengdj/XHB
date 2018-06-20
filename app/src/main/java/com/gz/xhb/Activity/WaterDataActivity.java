@@ -7,8 +7,8 @@ import android.widget.ListView;
 import com.gz.xhb.Adapter.WaterDataAdapter;
 import com.gz.xhb.Base.BaseOnlineDataActivity;
 import com.gz.xhb.Base.XHBBaseAdapter;
-import com.gz.xhb.MVP.Entity.OnlineDataInfo;
-import com.gz.xhb.MVP.Entity.WaterDataInfo;
+import com.gz.xhb.MVP.Model.Entity.OnlineDataInfo;
+import com.gz.xhb.MVP.Model.Entity.WaterDataInfo;
 import com.gz.xhb.R;
 import com.gz.xhb.util.UIUtil;
 

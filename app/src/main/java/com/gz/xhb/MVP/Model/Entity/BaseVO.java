@@ -1,18 +1,16 @@
-package com.gz.xhb.MVP.Entity;
-
-import java.util.List;
+package com.gz.xhb.MVP.Model.Entity;
 
 /**
- * Created by dell on 2018/5/15.
+ * Created by d on 2018/5/15.
  */
 
-public class BaseArrayVO<T> {
+public class BaseVO<T> {
     private boolean success;
     private String flag;
     private String msg;
-    private List<T> data;
+    private T data;
 
-    public BaseArrayVO(List<T> data) {
+    public BaseVO(T data) {
         this.data = data;
     }
 
@@ -32,11 +30,11 @@ public class BaseArrayVO<T> {
         this.flag = flag;
     }
 
-    public List<T> getData() {
+    public T getData() {
         return data;
     }
 
-    public void setData(List<T> data) {
+    public void setData(T data) {
         this.data = data;
     }
 

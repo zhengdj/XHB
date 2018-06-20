@@ -1,4 +1,4 @@
-package com.gz.xhb.MVP.interfaces;
+package com.gz.xhb.MVP.Interfaces;
 
 
 /**

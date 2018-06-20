@@ -10,7 +10,7 @@ import android.widget.SimpleAdapter;
 import com.gz.xhb.MVP.Presenter.MainMenuPresenter;
 import com.gz.xhb.R;
 import com.gz.xhb.util.ToolBarUtil;
-import com.gz.xhb.MVP.view.MainMenuView;
+import com.gz.xhb.MVP.View.MainMenuView;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -7,12 +7,12 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.gz.xhb.MVP.Entity.PsBaseInfo;
+import com.gz.xhb.MVP.Model.Entity.PsBaseInfo;
 import com.gz.xhb.MVP.Presenter.PsBaseInfoPresenter;
 import com.gz.xhb.R;
 import com.gz.xhb.databinding.ActivityPsBaseInfoBinding;
 import com.gz.xhb.util.ToolBarUtil;
-import com.gz.xhb.MVP.view.PsBaseInfoView;
+import com.gz.xhb.MVP.View.PsBaseInfoView;
 
 /**
  * Created by zdj on 2018/6/6.

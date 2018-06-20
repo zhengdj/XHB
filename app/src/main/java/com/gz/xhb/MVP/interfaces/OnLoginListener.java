@@ -1,6 +1,6 @@
-package com.gz.xhb.MVP.interfaces;
+package com.gz.xhb.MVP.Interfaces;
 
-import com.gz.xhb.MVP.Entity.User;
+import com.gz.xhb.MVP.Model.Entity.User;
 
 /**
  * Created by zdj on 2018/5/21.

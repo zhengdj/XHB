@@ -11,7 +11,7 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import com.gz.xhb.Adapter.PsListAdapter;
-import com.gz.xhb.MVP.Entity.PsBaseInfo;
+import com.gz.xhb.MVP.Model.Entity.PsBaseInfo;
 import com.gz.xhb.R;
 import com.gz.xhb.util.ToolBarUtil;
 import com.miguelcatalan.materialsearchview.MaterialSearchView;

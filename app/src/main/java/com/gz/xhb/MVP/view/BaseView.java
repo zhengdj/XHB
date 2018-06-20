@@ -1,4 +1,4 @@
-package com.gz.xhb.MVP.view;
+package com.gz.xhb.MVP.View;
 
 /**
  * Created by zdj on 2018/6/6.

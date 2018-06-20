@@ -1,8 +1,8 @@
-package com.gz.xhb.MVP.model;
+package com.gz.xhb.MVP.Model;
 
-import com.gz.xhb.MVP.Entity.User;
-import com.gz.xhb.MVP.interfaces.IUserBiz;
-import com.gz.xhb.MVP.interfaces.OnLoginListener;
+import com.gz.xhb.MVP.Interfaces.IUserBiz;
+import com.gz.xhb.MVP.Interfaces.OnLoginListener;
+import com.gz.xhb.MVP.Model.Entity.User;
 
 /**
  * Created by zdj on 2018/5/21.
@@ -13,6 +13,32 @@ public class UserBiz implements IUserBiz {
     public void login(final String username, final String password, final OnLoginListener loginListener) {
 
 
+//        io.reactivex.Observable<ResponseBody> login = new ServiceManager().login("18032033357","123456","outerApp");
+//
+//        login.subscribeOn(Schedulers.io())
+//                .observeOn(AndroidSchedulers.mainThread())
+//                .subscribe(new Observer<ResponseBody>() {
+//
+//                    @Override
+//                    public void onSubscribe(Disposable disposable) {
+//
+//                    }
+//
+//                    @Override
+//                    public void onNext(ResponseBody responseBody) {
+//
+//                    }
+//
+//                    @Override
+//                    public void onError(Throwable throwable) {
+//
+//                    }
+//
+//                    @Override
+//                    public void onComplete() {
+//
+//                    }
+//                });
 
         //模拟子线程耗时操作
         new Thread()

@@ -1,4 +1,4 @@
-package com.gz.xhb.MVP.Entity;
+package com.gz.xhb.MVP.Model.Entity;
 
 import java.io.Serializable;
 

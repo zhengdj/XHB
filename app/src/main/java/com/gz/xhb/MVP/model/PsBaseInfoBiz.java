@@ -1,8 +1,8 @@
-package com.gz.xhb.MVP.model;
+package com.gz.xhb.MVP.Model;
 
-import com.gz.xhb.MVP.Entity.PsBaseInfo;
-import com.gz.xhb.MVP.interfaces.IPsBaseInfoBiz;
-import com.gz.xhb.MVP.interfaces.OnGetPsBaseInfoListener;
+import com.gz.xhb.MVP.Model.Entity.PsBaseInfo;
+import com.gz.xhb.MVP.Interfaces.IPsBaseInfoBiz;
+import com.gz.xhb.MVP.Interfaces.OnGetPsBaseInfoListener;
 
 /**
  * Created by zdj on 2018/6/6.

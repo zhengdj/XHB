@@ -1,9 +1,9 @@
 package com.gz.xhb.MVP.Presenter;
 
-import com.gz.xhb.MVP.Entity.PsBaseInfo;
-import com.gz.xhb.MVP.interfaces.OnGetPsBaseInfoListener;
-import com.gz.xhb.MVP.model.PsBaseInfoBiz;
-import com.gz.xhb.MVP.view.PsBaseInfoView;
+import com.gz.xhb.MVP.Model.Entity.PsBaseInfo;
+import com.gz.xhb.MVP.Interfaces.OnGetPsBaseInfoListener;
+import com.gz.xhb.MVP.Model.PsBaseInfoBiz;
+import com.gz.xhb.MVP.View.PsBaseInfoView;
 
 /**
  * Created by zdj on 2018/5/21.
