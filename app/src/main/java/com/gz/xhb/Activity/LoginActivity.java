@@ -8,10 +8,10 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.gz.xhb.Presenter.UserLoginPresenter;
+import com.gz.xhb.MVP.Presenter.UserLoginPresenter;
 import com.gz.xhb.R;
 import com.gz.xhb.Entity.User;
-import com.gz.xhb.view.LoginView;
+import com.gz.xhb.MVP.view.LoginView;
 
 
 import butterknife.BindView;

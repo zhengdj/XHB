@@ -1,18 +1,16 @@
 package com.gz.xhb.Activity;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.SimpleAdapter;
-import android.widget.Toolbar;
 
-import com.gz.xhb.Presenter.MainMenuPresenter;
+import com.gz.xhb.MVP.Presenter.MainMenuPresenter;
 import com.gz.xhb.R;
 import com.gz.xhb.util.ToolBarUtil;
-import com.gz.xhb.view.MainMenuView;
+import com.gz.xhb.MVP.view.MainMenuView;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -74,7 +74,7 @@ public class WaterDataActivity extends BaseOnlineDataActivity<WaterDataInfo> {
         waterDataInfo.setTest4("流量");
         OnlineDataInfo<WaterDataInfo> onlineDataInfo = new OnlineDataInfo<>();
         onlineDataInfo.setT(waterDataInfo);
-        onlineDataInfo.setColor(getResources().getColor(R.color.title_bg));
+        onlineDataInfo.setColor(getResources().getColor(R.color.colorPrimaryDark));
         onlineDataInfo.setHeight(UIUtil.dp2px(this,50));
         return onlineDataInfo;
     }

@@ -8,11 +8,11 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.gz.xhb.Entity.PsBaseInfo;
-import com.gz.xhb.Presenter.PsBaseInfoPresenter;
+import com.gz.xhb.MVP.Presenter.PsBaseInfoPresenter;
 import com.gz.xhb.R;
 import com.gz.xhb.databinding.ActivityPsBaseInfoBinding;
 import com.gz.xhb.util.ToolBarUtil;
-import com.gz.xhb.view.PsBaseInfoView;
+import com.gz.xhb.MVP.view.PsBaseInfoView;
 
 /**
  * Created by zdj on 2018/6/6.

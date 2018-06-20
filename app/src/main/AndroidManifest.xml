@@ -27,7 +27,7 @@
             android:name="com.amap.api.v2.apikey"
             android:value="9dcf7133554527d214bd22318573a069"></meta-data>
 
-        <activity android:name=".Activity.MainMenuActivity"
+        <activity android:name=".Activity.LoginActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -35,9 +35,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!--<activity android:name=".Activity.MainMenuActivity"-->
-            <!--android:theme="@style/Theme.AppCompat.Light.NoActionBar"-->
-            <!--/>-->
+        <activity android:name=".Activity.MainMenuActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            />
         <activity android:name=".Activity.PsBaseInfoActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         />
