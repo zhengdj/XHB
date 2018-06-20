@@ -1,6 +1,6 @@
 package com.gz.xhb.MVP.view;
 
-import com.gz.xhb.Entity.PsBaseInfo;
+import com.gz.xhb.MVP.Entity.PsBaseInfo;
 
 /**
  * Created by zdj on 2018/5/21.

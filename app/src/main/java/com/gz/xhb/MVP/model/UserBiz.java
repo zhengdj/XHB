@@ -1,6 +1,6 @@
 package com.gz.xhb.MVP.model;
 
-import com.gz.xhb.Entity.User;
+import com.gz.xhb.MVP.Entity.User;
 import com.gz.xhb.MVP.interfaces.IUserBiz;
 import com.gz.xhb.MVP.interfaces.OnLoginListener;
 
@@ -11,6 +11,7 @@ import com.gz.xhb.MVP.interfaces.OnLoginListener;
 public class UserBiz implements IUserBiz {
     @Override
     public void login(final String username, final String password, final OnLoginListener loginListener) {
+
 
 
         //模拟子线程耗时操作

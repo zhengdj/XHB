@@ -4,7 +4,7 @@ import android.os.Handler;
 
 import com.gz.xhb.MVP.interfaces.OnLoginListener;
 import com.gz.xhb.MVP.view.LoginView;
-import com.gz.xhb.Entity.User;
+import com.gz.xhb.MVP.Entity.User;
 import com.gz.xhb.MVP.model.UserBiz;
 
 /**

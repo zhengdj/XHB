@@ -7,7 +7,7 @@ import android.widget.ListView;
 
 import com.gz.xhb.Adapter.PortListAdatper;
 import com.gz.xhb.Base.BaseListActivity;
-import com.gz.xhb.Entity.PortInfo;
+import com.gz.xhb.MVP.Entity.PortInfo;
 import com.gz.xhb.R;
 
 import java.util.ArrayList;

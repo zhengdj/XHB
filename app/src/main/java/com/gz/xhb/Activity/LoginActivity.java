@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 import com.gz.xhb.MVP.Presenter.UserLoginPresenter;
 import com.gz.xhb.R;
-import com.gz.xhb.Entity.User;
+import com.gz.xhb.MVP.Entity.User;
 import com.gz.xhb.MVP.view.LoginView;
 
 

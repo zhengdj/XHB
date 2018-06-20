@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 
 import com.gz.xhb.Base.XHBBaseAdapter;
-import com.gz.xhb.Entity.PsBaseInfo;
+import com.gz.xhb.MVP.Entity.PsBaseInfo;
 import com.gz.xhb.R;
 
 import java.util.List;

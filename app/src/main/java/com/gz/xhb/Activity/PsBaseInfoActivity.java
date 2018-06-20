@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.gz.xhb.Entity.PsBaseInfo;
+import com.gz.xhb.MVP.Entity.PsBaseInfo;
 import com.gz.xhb.MVP.Presenter.PsBaseInfoPresenter;
 import com.gz.xhb.R;
 import com.gz.xhb.databinding.ActivityPsBaseInfoBinding;

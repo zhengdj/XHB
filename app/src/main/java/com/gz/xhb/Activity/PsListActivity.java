@@ -11,7 +11,7 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import com.gz.xhb.Adapter.PsListAdapter;
-import com.gz.xhb.Entity.PsBaseInfo;
+import com.gz.xhb.MVP.Entity.PsBaseInfo;
 import com.gz.xhb.R;
 import com.gz.xhb.util.ToolBarUtil;
 import com.miguelcatalan.materialsearchview.MaterialSearchView;
@@ -19,7 +19,6 @@ import com.miguelcatalan.materialsearchview.MaterialSearchView;
 import java.util.ArrayList;
 import java.util.List;
 
-import cn.bingoogolapple.refreshlayout.BGAMeiTuanRefreshViewHolder;
 import cn.bingoogolapple.refreshlayout.BGANormalRefreshViewHolder;
 import cn.bingoogolapple.refreshlayout.BGARefreshLayout;
 import cn.bingoogolapple.refreshlayout.BGARefreshViewHolder;

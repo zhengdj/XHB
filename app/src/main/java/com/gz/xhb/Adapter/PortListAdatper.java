@@ -6,7 +6,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.gz.xhb.Base.XHBBaseAdapter;
-import com.gz.xhb.Entity.PortInfo;
+import com.gz.xhb.MVP.Entity.PortInfo;
 import com.gz.xhb.R;
 
 import java.util.List;

@@ -1,6 +1,6 @@
 package com.gz.xhb.MVP.view;
 
-import com.gz.xhb.Entity.User;
+import com.gz.xhb.MVP.Entity.User;
 
 /**
  * Created by zdj on 2018/5/21.
